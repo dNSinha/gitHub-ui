@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.btn-width {
+  width: 9rem;
+}
+
+.add-on {
+  margin-top: 2rem;
+}
+
+.accordian {
+ padding: 0.5rem;
+}
+
+.userDetails {
+ margin: 2rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
