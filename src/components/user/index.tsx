@@ -108,8 +108,13 @@ export default class UserView extends React.Component<IProps, IState> {
   render() {
     return (
       <Container>
-        {this.state.showAlert ?
-          <AlertDismissible heading={'User not found!'} text={'The user couldnot be found please try with another user.'} /> : null}
+        <Row>
+          <Col>
+            {this.state.showAlert ?
+              <AlertDismissible heading={'User not found!'} text={'The user couldnot be found please try with another user.'} /> : null}
+          </Col>
+        </Row>
+
         <Form noValidate validated={this.state.validated} onSubmit={this.handleSubmit}>
           <Form.Group controlId="validationCustomUsername">
             <Row className='input'>
