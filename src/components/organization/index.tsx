@@ -77,7 +77,11 @@ export default class OrganizationView extends React.Component<IProps, IState> {
       <>
         {this.state.showAlert ?
           <h1>No Orgs found!</h1> :
-          <AccordionOutput accordianInput={this.state.accordianInput} />
+          this.state.accordianInput.length > 0 ?
+          <div>
+            <div className='feature-heading'><h2 className='features'>Organisation</h2></div>
+            <AccordionOutput accordianInput={this.state.accordianInput} />
+          </div> : null
         }
       </>
     )

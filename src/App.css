@@ -20,6 +20,15 @@
  margin: 2rem;
 }
 
+.features {
+  border-bottom: 1px solid;
+  text-align: left;
+}
+
+.feature-heading {
+  padding: 20px;
+}
+
 @media (prefers-reduced-motion: no-preference) {}
 
 .App-header {
