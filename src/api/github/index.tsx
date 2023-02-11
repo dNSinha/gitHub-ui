@@ -4,7 +4,7 @@ import { Organization } from '../../types/organization';
 import { Gists } from '../../types/gists';
 import { Repository } from '../../types/Repository';
 
-// const URI = "https://api.github.com/users/";
+// const URI = "https://api.github.com/users/"; //for direct route
 const URI = "http://localhost:3001/api";
 
 export default class GitHubApi {
